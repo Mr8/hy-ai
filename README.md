@@ -2,13 +2,13 @@
 
 这是一个 webpack + typescript + react 的样例项目。
 
-## 准备工作
+## 准备工作
 
 请先安装好：
 
 * node.js（自带 npm 包管理工具）
 
-然后将本项目 clone 到本地，并且在项目根目录下执行：
+然后将本项目 clone 到本地，并且在项目根目录下执行：
 
 ```
 npm install
@@ -35,7 +35,7 @@ npm run dev
 
 这个项目配置了源代码映射，因此你可以在浏览器中基于 TypeScript 的源码进行查看和调试。
 
-并且它会根据 src/*.tsx 文件自动参照 template.html 生成对应的 html 文件。所以你可以任意的创建多个页面，而不必拘泥。
+并且它会根据 src/*.tsx 文件自动参照 template.html 生成对应的 html 文件。所以你可以任意的创建多个页面。
 
 其他问题问我。
 
