@@ -1,0 +1,32 @@
+{
+  "name": "lipcolor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack && webpack-dev-server",
+    "build": "tsc && webpack",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.36",
+    "@types/react": "*",
+    "@types/react-dom": "15.5.1",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.29.0",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.2.1",
+    "typescript": "^2.4.1",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.5.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
